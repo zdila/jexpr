@@ -1,0 +1,17 @@
+[package]
+name = "jexpr"
+version = "0.0.1"
+edition = "2024"
+authors = ["Martin Ždila <m.zdila@gmail.com>"]
+description = "A general-purpose, extensible evaluator for JSON-based prefix expressions, inspired by Mapbox GL expressions."
+license = "Apache-2.0"
+repository = "https://github.com/zdila/jexpr"
+keywords = ["expression", "json", "evaluator", "logic", "mapbox"]
+categories = ["parsing", "data-structures", "config"]
+readme = "README.md"
+
+[dependencies]
+rand = "0.9.1"
+rustc-hash = "2.1.1"
+serde_json = "1.0.140"
+thiserror = "2.0.12"
